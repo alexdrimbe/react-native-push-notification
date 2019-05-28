@@ -538,7 +538,7 @@ public class RNPushNotificationHelper {
 
         Bundle bundle = new Bundle();
 
-        int importance = NotificationManager.IMPORTANCE_HIGH;
+        int importance = NotificationManager.IMPORTANCE_LOW;
         final String importanceString = bundle.getString("importance");
 
         if (importanceString != null) {
